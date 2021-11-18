@@ -33,7 +33,6 @@ document.querySelector("#skip").addEventListener("click", function(){
 	console.log("Skip Ahead: ", video.currentTime)
 	video.addEventListener('ended', function(){
 		video.currentTime = 0;
-		video.play();
 	});
 });
 
